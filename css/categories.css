@@ -1,0 +1,129 @@
+* {
+  box-sizing: border-box;
+  font-family: "Segoe UI", sans-serif;
+}
+
+body {
+  margin: 0;
+  background: #fff;
+  color: #222;
+}
+
+.main-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 16px 40px;
+  border-bottom: 1px solid #eee;
+}
+
+.logo {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.nav-menu a {
+  margin: 0 10px;
+  text-decoration: none;
+  color: #333;
+  font-weight: 500;
+}
+
+.header-icons {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.search-input {
+  position: relative;
+}
+
+.search {
+  padding-left: 30px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+}
+
+.search-icon {
+  position: absolute;
+  left: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+  color: #aaa;
+}
+
+.user-image {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+}
+
+.home-content {
+  font-size: 14px;
+  color: #777;
+  padding: 20px 40px 0;
+}
+
+.home-content strong {
+  color: #000;
+}
+
+.category-section {
+  padding: 20px 40px 60px;
+}
+
+.category-section h2 {
+  font-size: 28px;
+  font-weight: 700;
+  margin-bottom: 40px;
+}
+
+.category-grid {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 20px;
+}
+
+.category-card {
+  border: 1px solid #999999;
+  border-radius: 12px;
+  padding: 16px;
+  text-align: center;
+}
+
+.category-card img {
+  width: 48px;
+  height: 48px;
+  margin-bottom: 10px;
+}
+
+.category-card p {
+  font-weight: bold;
+  font-size: 14px;
+  color: #222;
+  margin: 0;
+}
+
+.footer {
+  border-top: 1px solid #eee;
+  text-align: center;
+  padding: 30px 20px;
+  font-size: 13px;
+  color: #777;
+}
+
+.footer-links {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  margin-bottom: 10px;
+}
+
+.footer-links a {
+  color: #555;
+  text-decoration: none;
+  font-size: 13px;
+}
