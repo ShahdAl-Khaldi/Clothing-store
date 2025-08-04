@@ -1,0 +1,79 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Checkout_Trendify</title>
+    <!-- Render All Elements Normally -->
+    <link rel="stylesheet" href="css/normalize.css" />
+    <!-- Font Awesome Library -->
+    <link rel="stylesheet" href="css/all.min.css" />
+    <!-- Main Template CSS File -->
+    <link rel="stylesheet" href="css/Checkout.css" />
+  </head>
+  <body>
+    <header>
+      <div class="logo">Crafty</div>
+
+      <nav class="nav-menu">
+        <a href="#">New arrivals</a>
+        <a href="#">Featured</a>
+        <a href="#">Men</a>
+        <a href="#">Women</a>
+        <a href="#">Kids</a>
+      </nav>
+
+      <div class="nav-icons">
+        <div class="nav-icon"><i class="fas fa-magnifying-glass"></i></div>
+        <div class="nav-icon"><i class="fas fa-user"></i></div>
+        <div class="nav-icon"><i class="fas fa-bag-shopping"></i></div>
+      </div>
+    </header>
+    <main>
+      <div class="checkout-container">
+        <p class="home-content">Cart / <strong>Checkout</strong></p>
+        <h2>Checkout</h2>
+
+        <form>
+          <label>Email</label>
+          <input type="email" placeholder="Email" />
+
+          <label>Card number</label>
+          <input type="text" placeholder="Card number" />
+
+          <div class="row">
+            <div class="address-info">
+              <label>Expiry date</label>
+              <input type="text" placeholder="MM/YY" />
+            </div>
+            <div class="address-info">
+              <label>CVC</label>
+              <input type="text" placeholder="CVC" />
+            </div>
+          </div>
+
+          <label>Name on card</label>
+          <input type="text" placeholder="Name on card" />
+
+          <label>Billing address</label>
+          <input type="text" placeholder="Billing address" />
+
+          <label>City</label>
+          <input type="text" placeholder="City" />
+
+          <div class="row">
+            <div class="address-info">
+              <label>State</label>
+              <input type="text" placeholder="State" />
+            </div>
+            <div class="address-info">
+              <label>Zip code</label>
+              <input type="text" placeholder="Zip code" />
+            </div>
+          </div>
+
+          <button type="submit">Pay now</button>
+        </form>
+      </div>
+    </main>
+  </body>
+</html>
